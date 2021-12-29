@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(215, 51%, 70%);
+    font-family: Outfit;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+}
+
+.container{
+    border: black;
+    border-radius: 15px;
+    max-width: 20%;
+    margin: 0 auto;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    padding:1rem;
+    min-width: 35vh ;
+    background-color: hsl(216, 50%, 16%);
+}
+.image{
+    width: 100%;
+border-radius: 15px;
+}
+.avatar{
+    width: 30px;
+}
+.kufiri{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 1rem;
+}
+.bold{
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+.text, p{
+    font-size: 1.1rem;
+    
+}
+.right{
+    float: right;
+}
+.fundi{
+    margin-top: 1rem;
+    padding-bottom: 1.6rem;
+}
+ .kufiri img {
+     margin-right: 5px;
+     position: relative;
+     top: 3px;
+ }
+.fundi img{
+    margin-right: 7px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    position: relative;
+    top: 8px;
+}
+
+
+.image:hover {
+position: relative;
+background-color: #fff;
+opacity: .6;
+}
+.image:hover::after{
+    content: url(/images/icon-view.svg);
+    display: block;
+    position: absolute;
+    left: 123px;
+    top: 50%;
+
+}
